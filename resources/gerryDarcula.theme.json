@@ -1,19 +1,19 @@
 {
-  "name": "Gerry Violet",
+  "name": "Gerry Darcula",
   "dark": true,
   "author": "Gerry",
   "colors": {
-    "bg": "#242431",
-    "second": "#2f334d",
+    "bg": "#3c3f41",
+    "second": "#5a5d5f",
     "fg": "#D0D0D9",
     "secondFg": "#96969d",
-    "selBg": "#6A6A85",
+    "selBg": "#0D303E",
     "selFg": "#E0E0E9",
-    "border": "#3f3f3f",
+    "border": "#5f5f5f",
     "dis": "#666666",
-    "accent": "#A062CB",
-    "shadow": "#2B2A3E",
-    "deepBg": "#1d1d26",
+    "accent": "#5078a0",
+    "shadow": "#212121",
+    "deepBg": "#2B2B2B",
     "focus": "selBg",
     "bg30": "bg",
     "text": "fg",
@@ -38,9 +38,9 @@
     "purple": "#baacff",
     "orange": "#ff9668",
     "error": "#dd3962",
-    "separator": "#3f3f3f"
+    "separator": "#5f5f5f"
   },
-  "editorScheme": "/resources/gerryViolet.theme.xml",
+  "editorScheme": "/resources/gerryDarcula.theme.xml",
   "ui": {
     "*": {
       "background": "bg",

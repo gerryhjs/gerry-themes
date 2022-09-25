@@ -6,10 +6,11 @@
     "bg": "#26324C",
     "second": "#324272",
     "fg": "#D0D0D9",
+    "secondFg": "#96969d",
     "selBg": "#546E91",
     "selFg": "#E0E0E9",
     "border": "#3f3f3f",
-    "dis": "#777777",
+    "dis": "#666666",
     "accent": "#0082A0",
     "shadow": "#2A373E",
     "deepBg": "#17233D",
@@ -47,11 +48,11 @@
       "infoForeground": "fg",
       "selectionBackground": "selBg",
       "selectionForeground": "fg",
-      "selectionInactiveBackground": "accent",
+      "selectionInactiveBackground": "selBg",
       "selectionBackgroundInactive": "accent",
       "lightSelectionBackground": "bg",
       "lightSelectionForeground": "fg",
-      "lightSelectionInactiveBackground": "accent",
+      "lightSelectionInactiveBackground": "selBg",
       "lightSelectionInactiveForeground": "fg",
       "disabledBackground": "bg",
       "inactiveBackground": "bg",
@@ -286,7 +287,7 @@
       "hoverIconColor": "accent",
       "iconColor": "text",
       "grayForeground": "text",
-      "infoForeground": "text"
+      "infoForeground": "secondFg"
     },
     "Content": {
       "background": "bg",
@@ -316,13 +317,13 @@
     "desktop": "hc",
     "Debugger": {
       "Variables": {
-        "changedValueForeground": "fg",
-        "collectingDataForeground": "text",
+        "changedValueForeground": "accent",
+        "collectingDataForeground": "accent",
         "errorMessageForeground": "red",
-        "evaluatingExpressionForeground": "text",
+        "evaluatingExpressionForeground": "accent",
         "exceptionForeground": "yellow",
-        "modifyingValueForeground": "fg",
-        "valueForeground": "fg"
+        "modifyingValueForeground": "accent",
+        "valueForeground": "accent"
       }
     },
     "DebuggerTabs": {
@@ -536,12 +537,12 @@
       }
     },
     "FileColor": {
-      "Yellow": "hc",
-      "Green": "hc",
-      "Blue": "hc",
-      "Violet": "hc",
-      "Orange": "hc",
-      "Rose": "hc"
+      "Yellow": "bg",
+      "Green": "bg",
+      "Blue": "bg",
+      "Violet": "bg",
+      "Orange": "bg",
+      "Rose": "bg"
     },
     "link": "text",
     "Link": {
@@ -671,25 +672,26 @@
     "Plugins": {
       "background": "bg",
       "disabledForeground": "dis",
-      "eapTagBackground": "hl",
+      "eapTagBackground": "accent",
       "hoverBackground": "hl",
       "lightSelectionBackground": "table",
-      "paidTagBackground": "hl",
+      "paidTagBackground": "accent",
+      "paidTagForeground": "selFg",
       "selectionBackground": "selBg",
       "selectionForeground": "selFg",
-      "tagBackground": "hl",
-      "tagForeground": "fg",
-      "trialTagBackground": "second",
+      "tagBackground": "accent",
+      "tagForeground": "selFg",
+      "trialTagBackground": "accent",
       "Button": {
-        "installBackground": "button",
-        "installBorderColor": "button",
-        "installFillBackground": "button",
-        "installFillForeground": "dis",
+        "installBackground": "bg",
+        "installBorderColor": "accent",
+        "installFillBackground": "bg",
+        "installFillForeground": "accent",
         "installFocusedBackground": "hl",
-        "installForeground": "fg",
-        "updateBackground": "accent",
-        "updateBorderColor": "button",
-        "updateForeground": "fg"
+        "installForeground": "accent",
+        "updateBackground": "bg",
+        "updateBorderColor": "accent",
+        "updateForeground": "accent"
       },
       "SearchField": {
         "background": "second",
@@ -715,10 +717,10 @@
         "foreground": "accent"
       },
       "Border": {
-        "color": "cs",
+        "color": "border",
         "inactiveColor": "bg"
       },
-      "borderColor": "cs",
+      "borderColor": "border",
       "inactiveBorderColor": "bg",
       "innerBorderColor": "second",
       "Header": {
@@ -1142,7 +1144,8 @@
       "selectionForeground": "selFg",
       "selectionInactiveBackground": "focus",
       "selectionInactiveForeground": "selFg",
-      "textBackground": "hc"
+      "textBackground": "hc",
+      "rowHeight": 24
     },
     "Tree.leftChildIndent": 10,
     "Tree.rightChildIndent": 10,

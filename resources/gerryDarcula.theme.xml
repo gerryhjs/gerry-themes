@@ -1,4 +1,4 @@
-<scheme name="Gerry Violet" version="142" parent_scheme="Darcula">
+<scheme name="Gerry Darcula" version="142" parent_scheme="Darcula">
     <metaInfo>
         <property name="created">2022-05-05T09:35:05</property>
         <property name="ide">idea</property>
@@ -10,7 +10,7 @@
         <option name="ADDED_LINES_COLOR" value="98C380"/>
         <option name="ANNOTATIONS_COLOR" value="a0a7b4"/>
         <option name="CARET_COLOR" value="55a5ff"/>
-        <option name="CARET_ROW_COLOR" value="2D2332"/>
+        <option name="CARET_ROW_COLOR" value="333333"/>
         <option name="CONSOLE_BACKGROUND_KEY" value=""/>
         <option name="DELETED_LINES_COLOR" value="FF9696"/>
         <option name="DIAGRAM_ANNOTATION_EDGE" value="FFC86E"/>
@@ -23,7 +23,7 @@
         <option name="DIAGRAM_NOTE_BORDER" value="808080"/>
         <option name="DIAGRAM_REALIZATION_EDGE" value="98C380"/>
         <option name="DIFF_SEPARATORS_BACKGROUND" value="21252b"/>
-        <option name="DOCUMENTATION_COLOR" value="242431"/>
+        <option name="DOCUMENTATION_COLOR" value="222222"/>
         <option name="ERROR_HINT" value="781732"/>
         <option name="FILESTATUS_ADDED" value="c3e887"/>
         <option name="FILESTATUS_COPIED" value="c3e88d"/>
@@ -48,15 +48,15 @@
         <option name="FILESTATUS_changelistConflict" value="fc9867"/>
         <option name="FILESTATUS_modifiedOutside" value="c792ea"/>
         <option name="FOLDED_TEXT_BORDER_COLOR" value=""/>
-        <option name="GUTTER_BACKGROUND" value="1d1d26"/>
+        <option name="GUTTER_BACKGROUND" value="2B2B2B"/>
         <option name="HTML_TAG_TREE_LEVEL0" value="DD3962"/>
         <option name="HTML_TAG_TREE_LEVEL1" value="FFC86E"/>
         <option name="HTML_TAG_TREE_LEVEL2" value="98C380"/>
         <option name="HTML_TAG_TREE_LEVEL3" value="50B4BE"/>
         <option name="HTML_TAG_TREE_LEVEL4" value="61afef"/>
         <option name="HTML_TAG_TREE_LEVEL5" value="DC8CF0"/>
-        <option name="INDENT_GUIDE" value="393B40"/>
-        <option name="INFORMATION_HINT" value="1d1d26"/>
+        <option name="INDENT_GUIDE" value="373737"/>
+        <option name="INFORMATION_HINT" value="2B2B2B"/>
         <option name="LINE_NUMBERS_COLOR" value="444444"/>
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="737984"/>
         <option name="METHOD_SEPARATORS_COLOR" value="3b4048"/>
@@ -64,7 +64,7 @@
         <option name="MT_FILESTATUS_NOT_CHANGED" value="AFB9C3"/>
         <option name="MT_FILESTATUS_SUPPRESSED" value="AFB9C3"/>
         <option name="QUESTION_HINT" value="2e4280"/>
-        <option name="RECENT_LOCATIONS_SELECTION" value="1d1d26"/>
+        <option name="RECENT_LOCATIONS_SELECTION" value="2B2B2B"/>
         <option name="RIGHT_MARGIN_COLOR" value="606368"/>
         <option name="SELECTED_INDENT_GUIDE" value="606368"/>
         <option name="SELECTED_TEARLINE_COLOR" value="6b6e73"/>
@@ -78,17 +78,17 @@
         <option name="ScrollBar.Mac.Transparent.trackColor" value="0"/>
         <option name="ScrollBar.Mac.hoverThumbBorderColor" value="d7dae0"/>
         <option name="ScrollBar.Mac.hoverThumbColor" value="d7dae0"/>
-        <option name="ScrollBar.Mac.hoverTrackColor" value="1d1d26"/>
+        <option name="ScrollBar.Mac.hoverTrackColor" value="2B2B2B"/>
         <option name="ScrollBar.Mac.thumbBorderColor" value="222222"/>
         <option name="ScrollBar.Mac.thumbColor" value="222222"/>
-        <option name="ScrollBar.Mac.trackColor" value="1d1d26"/>
+        <option name="ScrollBar.Mac.trackColor" value="2B2B2B"/>
         <option name="ScrollBar.Transparent.hoverThumbBorderColor" value=""/>
         <option name="ScrollBar.Transparent.hoverThumbColor" value=""/>
         <option name="ScrollBar.Transparent.hoverTrackColor" value=""/>
         <option name="ScrollBar.Transparent.thumbBorderColor" value=""/>
         <option name="ScrollBar.Transparent.thumbColor" value=""/>
         <option name="ScrollBar.Transparent.trackColor" value=""/>
-        <option name="ScrollBar.background" value="1d1d26"/>
+        <option name="ScrollBar.background" value="2B2B2B"/>
         <option name="ScrollBar.hoverThumbBorderColor" value=""/>
         <option name="ScrollBar.hoverThumbColor" value=""/>
         <option name="ScrollBar.hoverTrackColor" value=""/>
@@ -1191,7 +1191,7 @@
         <option name="MT_DIRECTORIES">
             <value>
                 <option name="FOREGROUND" value="AFB9C3"/>
-                <option name="BACKGROUND" value="1d1d26"/>
+                <option name="BACKGROUND" value="2B2B2B"/>
             </value>
         </option>
         <option name="NG.BANANA_BINDING_ATTR_NAME">
@@ -1448,7 +1448,7 @@
         </option>
         <option name="REST.FIXED">
             <value>
-                <option name="BACKGROUND" value="1d1d26"/>
+                <option name="BACKGROUND" value="2B2B2B"/>
             </value>
         </option>
         <option name="REST.INTERPRETED">
@@ -1683,7 +1683,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="AFB9C3"/>
-                <option name="BACKGROUND" value="1d1d26"/>
+                <option name="BACKGROUND" value="2B2B2B"/>
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
