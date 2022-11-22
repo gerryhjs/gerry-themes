@@ -3,17 +3,17 @@
   "dark": true,
   "author": "Gerry",
   "colors": {
-    "bg": "#242431",
+    "bg": "#1a1f30",
     "second": "#2f334d",
-    "fg": "#D0D0D9",
+    "fg": "#d0d0d9",
     "secondFg": "#96969d",
     "selBg": "#505064",
-    "selFg": "#E0E0E9",
+    "selFg": "#e0e0e9",
     "border": "#3f3f3f",
     "dis": "#666666",
-    "accent": "#A062CB",
-    "shadow": "#2B2A3E",
-    "deepBg": "#13131C",
+    "accent": "#a062cb",
+    "shadow": "#2b2a3e",
+    "deepBg": "#1a1f30",
     "white": "#c8d3f5",
     "blue": "#70b0ff",
     "red": "#ff757f",
@@ -25,7 +25,7 @@
     "error": "#dd3962",
     "separator": "#3f3f3f",
     "separator2": "#505050",
-    "highlightFg": "#FFFFFF"
+    "highlightFg": "#ffffff"
   },
   "editorScheme": "/resources/gerryViolet.theme.xml",
   "ui": {
@@ -363,7 +363,10 @@
     "Editor": {
       "background": "deepBg",
       "foreground": "fg",
-      "shortcutForeground": "fg"
+      "shortcutForeground": "fg",
+      "SearchField": {
+        "borderInsets": "6,8,6,8"
+      }
     },
     "EditorGroupsTabs": {
       "background": "bg",
@@ -678,13 +681,13 @@
       "tagForeground": "accent",
       "trialTagBackground": "second",
       "ActionButton": {
-      "hoverBackground": "selBg",
-      "hoverBorderColor": "bg",
-      "pressedBackground": "selBg",
-      "pressedBorderColor": "bg",
-      "focusedBorderColor": "accent"
-    },
-    "Button": {
+        "hoverBackground": "selBg",
+        "hoverBorderColor": "bg",
+        "pressedBackground": "selBg",
+        "pressedBorderColor": "bg",
+        "focusedBorderColor": "accent"
+      },
+      "Button": {
         "installBackground": "bg",
         "installBorderColor": "accent",
         "installFillBackground": "bg",
@@ -787,6 +790,12 @@
       "foreground": "fg",
       "selectionBackground": "selBg",
       "selectionForeground": "selFg"
+    },
+    "RunWidget": {
+      "background": "second",
+      "runningBackground": "second",
+      "foreground": "fg",
+      "separatorColor": "border"
     },
     "ScreenView.borderColor": "border",
     "SearchEverywhere": {
@@ -1098,13 +1107,13 @@
       "Background": "bg",
       "background": "bg",
       "ActionButton": {
-      "hoverBackground": "selBg",
-      "hoverBorderColor": "bg",
-      "pressedBackground": "selBg",
-      "pressedBorderColor": "bg",
-      "focusedBorderColor": "accent"
-    },
-    "Button": {
+        "hoverBackground": "selBg",
+        "hoverBorderColor": "bg",
+        "pressedBackground": "selBg",
+        "pressedBorderColor": "bg",
+        "focusedBorderColor": "accent"
+      },
+      "Button": {
         "hoverBackground": "selBg",
         "selectedBackground": "selBg",
         "selectedForeground": "selFg"

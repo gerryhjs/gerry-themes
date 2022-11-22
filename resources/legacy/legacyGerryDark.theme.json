@@ -1,19 +1,19 @@
 {
-  "name": "Gerry Oceanic",
+  "name": "Legacy Gerry Dark",
   "dark": true,
   "author": "Gerry",
   "colors": {
-    "bg": "#1a2426",
-    "second": "#32424a",
+    "bg": "#282b2d",
+    "second": "#464650",
     "fg": "#d0d0d9",
     "secondFg": "#96969d",
-    "selBg": "#3c5569",
+    "selBg": "#50555a",
     "selFg": "#e0e0e9",
     "border": "#3f3f3f",
     "dis": "#666666",
-    "accent": "#009688",
-    "shadow": "#2a373e",
-    "deepBg": "#1a2426",
+    "accent": "#5378c8",
+    "shadow": "#212121",
+    "deepBg": "#1e1f22",
     "white": "#c8d3f5",
     "blue": "#70b0ff",
     "red": "#ff757f",
@@ -27,7 +27,7 @@
     "separator2": "#505050",
     "highlightFg": "#ffffff"
   },
-  "editorScheme": "/resources/gerryOceanic.theme.xml",
+  "editorScheme": "/resources/gerryDark.theme.xml",
   "ui": {
     "*": {
       "background": "bg",

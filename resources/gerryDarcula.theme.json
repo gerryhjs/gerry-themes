@@ -3,17 +3,17 @@
   "dark": true,
   "author": "Gerry",
   "colors": {
-    "bg": "#3c3f41",
-    "second": "#5a5d5f",
-    "fg": "#D0D0D9",
+    "bg": "#2b2b2b",
+    "second": "#4a4d4f",
+    "fg": "#d0d0d9",
     "secondFg": "#96969d",
-    "selBg": "#5f6469",
-    "selFg": "#E0E0E9",
-    "border": "#5f5f5f",
+    "selBg": "#50555a",
+    "selFg": "#e0e0e9",
+    "border": "#3f3f3f",
     "dis": "#666666",
-    "accent": "#357dff",
+    "accent": "#217de1",
     "shadow": "#212121",
-    "deepBg": "#2B2B2B",
+    "deepBg": "#2b2b2b",
     "white": "#c8d3f5",
     "blue": "#70b0ff",
     "red": "#ff757f",
@@ -23,8 +23,9 @@
     "purple": "#baacff",
     "orange": "#ff9668",
     "error": "#dd3962",
-    "separator": "#5f5f5f",
-    "highlightFg": "#FFFFFF"
+    "separator": "#3f3f3f",
+    "separator2": "#505050",
+    "highlightFg": "#ffffff"
   },
   "editorScheme": "/resources/gerryDarcula.theme.xml",
   "ui": {
@@ -362,7 +363,10 @@
     "Editor": {
       "background": "deepBg",
       "foreground": "fg",
-      "shortcutForeground": "fg"
+      "shortcutForeground": "fg",
+      "SearchField": {
+        "borderInsets": "6,8,6,8"
+      }
     },
     "EditorGroupsTabs": {
       "background": "bg",
@@ -677,13 +681,13 @@
       "tagForeground": "accent",
       "trialTagBackground": "second",
       "ActionButton": {
-      "hoverBackground": "selBg",
-      "hoverBorderColor": "bg",
-      "pressedBackground": "selBg",
-      "pressedBorderColor": "bg",
-      "focusedBorderColor": "accent"
-    },
-    "Button": {
+        "hoverBackground": "selBg",
+        "hoverBorderColor": "bg",
+        "pressedBackground": "selBg",
+        "pressedBorderColor": "bg",
+        "focusedBorderColor": "accent"
+      },
+      "Button": {
         "installBackground": "bg",
         "installBorderColor": "accent",
         "installFillBackground": "bg",
@@ -786,6 +790,12 @@
       "foreground": "fg",
       "selectionBackground": "selBg",
       "selectionForeground": "selFg"
+    },
+    "RunWidget": {
+      "background": "second",
+      "runningBackground": "second",
+      "foreground": "fg",
+      "separatorColor": "border"
     },
     "ScreenView.borderColor": "border",
     "SearchEverywhere": {
@@ -1097,13 +1107,13 @@
       "Background": "bg",
       "background": "bg",
       "ActionButton": {
-      "hoverBackground": "selBg",
-      "hoverBorderColor": "bg",
-      "pressedBackground": "selBg",
-      "pressedBorderColor": "bg",
-      "focusedBorderColor": "accent"
-    },
-    "Button": {
+        "hoverBackground": "selBg",
+        "hoverBorderColor": "bg",
+        "pressedBackground": "selBg",
+        "pressedBorderColor": "bg",
+        "focusedBorderColor": "accent"
+      },
+      "Button": {
         "hoverBackground": "selBg",
         "selectedBackground": "selBg",
         "selectedForeground": "selFg"
