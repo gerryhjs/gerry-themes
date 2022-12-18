@@ -18,12 +18,12 @@
         <option name="DIAGRAM_GENERALIZATION_EDGE" value="61afe1"/>
         <option name="DIAGRAM_INNER_EDGE" value="ff9696"/>
         <option name="DIAGRAM_NODE_BACKGROUND" value="30404f"/>
-        <option name="DIAGRAM_NODE_HEADER" value="4b505a"/>
-        <option name="DIAGRAM_NOTE_BACKGROUND" value="4b505a"/>
+        <option name="DIAGRAM_NODE_HEADER" value="3b3b3b"/>
+        <option name="DIAGRAM_NOTE_BACKGROUND" value="3b3b3b"/>
         <option name="DIAGRAM_NOTE_BORDER" value="808080"/>
         <option name="DIAGRAM_REALIZATION_EDGE" value="96be78"/>
         <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30"/>
-        <option name="DOCUMENTATION_COLOR" value="3c3f41"/>
+        <option name="DOCUMENTATION_COLOR" value="2b2b2b"/>
         <option name="ERROR_HINT" value="961e3c"/>
         <option name="FILESTATUS_ADDED" value="c3e887"/>
         <option name="FILESTATUS_COPIED" value="c3e88d"/>
@@ -53,6 +53,7 @@
         <option name="INFORMATION_HINT" value="2b2b2b"/>
         <option name="LINE_NUMBERS_COLOR" value="555555"/>
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="999999"/>
+        <option name="LOOKUP_COLOR" value="2b2b2b"/>
         <option name="METHOD_SEPARATORS_COLOR" value="30404f"/>
         <option name="MODIFIED_LINES_COLOR" value="ffc86e"/>
         <option name="MT_FILESTATUS_NOT_CHANGED" value="afb9c3"/>
@@ -65,31 +66,6 @@
         <option name="SELECTION_BACKGROUND" value="173d59"/>
         <option name="SELECTION_FOREGROUND"/>
         <option name="SEPARATOR_BELOW_COLOR" value=""/>
-        <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value=""/>
-        <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value=""/>
-        <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="0"/>
-        <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="222222"/>
-        <option name="ScrollBar.Mac.Transparent.thumbColor" value="222222"/>
-        <option name="ScrollBar.Mac.Transparent.trackColor" value="0"/>
-        <option name="ScrollBar.Mac.hoverThumbBorderColor" value=""/>
-        <option name="ScrollBar.Mac.hoverThumbColor" value=""/>
-        <option name="ScrollBar.Mac.hoverTrackColor" value="2b2b2b"/>
-        <option name="ScrollBar.Mac.thumbBorderColor" value="222222"/>
-        <option name="ScrollBar.Mac.thumbColor" value="222222"/>
-        <option name="ScrollBar.Mac.trackColor" value="2b2b2b"/>
-        <option name="ScrollBar.Transparent.hoverThumbBorderColor" value=""/>
-        <option name="ScrollBar.Transparent.hoverThumbColor" value=""/>
-        <option name="ScrollBar.Transparent.hoverTrackColor" value=""/>
-        <option name="ScrollBar.Transparent.thumbBorderColor" value=""/>
-        <option name="ScrollBar.Transparent.thumbColor" value=""/>
-        <option name="ScrollBar.Transparent.trackColor" value=""/>
-        <option name="ScrollBar.background" value="2b2b2b"/>
-        <option name="ScrollBar.hoverThumbBorderColor" value=""/>
-        <option name="ScrollBar.hoverThumbColor" value=""/>
-        <option name="ScrollBar.hoverTrackColor" value=""/>
-        <option name="ScrollBar.thumbBorderColor" value=""/>
-        <option name="ScrollBar.thumbColor" value=""/>
-        <option name="ScrollBar.trackColor" value=""/>
         <option name="TABS" value="afb9c3"/>
         <option name="TEARLINE_COLOR" value="373c41"/>
         <option name="VCS_ANNOTATIONS_COLOR_1" value="2f5194"/>
@@ -422,7 +398,9 @@
                 <option name="FOREGROUND" value="ffc86e"/>
             </value>
         </option>
-        <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT"/>
+        <option name="DEFAULT_IDENTIFIER">
+            <value/>
+        </option>
         <option name="DEFAULT_INSTANCE_FIELD">
             <value>
                 <option name="FOREGROUND" value="ff9696"/>
@@ -492,7 +470,9 @@
         <option name="DEFAULT_TAG">
             <value/>
         </option>
-        <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT"/>
+        <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
+            <value/>
+        </option>
         <option name="DEFAULT_VALID_STRING_ESCAPE">
             <value>
                 <option name="FOREGROUND" value="50b4be"/>
@@ -713,7 +693,7 @@
         <option name="INLINE_PARAMETER_HINT">
             <value>
                 <option name="FOREGROUND" value="afb9c3"/>
-                <option name="BACKGROUND" value="4b505a"/>
+                <option name="BACKGROUND" value="3b3b3b"/>
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_CURRENT">
@@ -725,7 +705,7 @@
         <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
             <value>
                 <option name="FOREGROUND" value="afb9c3"/>
-                <option name="BACKGROUND" value="4b505a"/>
+                <option name="BACKGROUND" value="3b3b3b"/>
             </value>
         </option>
         <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD"/>
@@ -838,7 +818,7 @@
         <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
             <value/>
         </option>
-        <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL" />
+        <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL"/>
         <option name="KOTLIN_MUTABLE_VARIABLE">
             <value>
                 <option name="FONT_TYPE" value="2"/>
@@ -849,7 +829,7 @@
                 <option name="FOREGROUND" value="ffc86e"/>
             </value>
         </option>
-        <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
+        <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD"/>
         <option name="KOTLIN_SMART_CAST_RECEIVER">
             <value/>
         </option>
@@ -865,7 +845,7 @@
                 <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
-        <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL" />
+        <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL"/>
         <option name="KOTLIN_MUTABLE_VARIABLE">
             <value>
                 <option name="FOREGROUND" value="61afe1"/>
@@ -1017,7 +997,7 @@
         </option>
         <option name="MATCHED_BRACE_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="505a69"/>
+                <option name="BACKGROUND" value="50555f"/>
             </value>
         </option>
         <option name="MESSAGE_ARGUMENT">
@@ -1513,7 +1493,9 @@
                 <option name="FOREGROUND" value="ffc86e"/>
             </value>
         </option>
-        <option name="XML_PROLOGUE" baseAttributes="TEXT"/>
+        <option name="XML_PROLOGUE">
+            <value/>
+        </option>
         <option name="XML_TAG" baseAttributes="DEFAULT_TAG"/>
         <option name="XML_TAG_NAME">
             <value>

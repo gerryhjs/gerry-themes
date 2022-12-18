@@ -1,19 +1,19 @@
 {
-  "name": "Legacy Gerry Dark",
-  "dark": true,
+  "name": "Gerry* Light",
+  "dark": false,
   "author": "Gerry",
   "colors": {
-    "bg": "#282b2d",
-    "second": "#464650",
-    "fg": "#d0d0d9",
-    "secondFg": "#96969d",
-    "selBg": "#50555a",
-    "selFg": "#e0e0e9",
-    "border": "#3f3f3f",
-    "dis": "#666666",
-    "accent": "#5378c8",
+    "bg": "#ffffff",
+    "second": "#f0f0f5",
+    "fg": "#302a24",
+    "secondFg": "#443e42",
+    "selBg": "#cfdefc",
+    "selFg": "#000000",
+    "border": "#dddddd",
+    "dis": "#aaaaaa",
+    "accent": "#78a0ff",
     "shadow": "#212121",
-    "deepBg": "#1e1f22",
+    "deepBg": "#ffffff",
     "white": "#c8d3f5",
     "blue": "#70b0ff",
     "red": "#ff757f",
@@ -23,11 +23,12 @@
     "purple": "#baacff",
     "orange": "#ff9668",
     "error": "#dd3962",
-    "separator": "#505050",
+    "separator": "#cccccc",
     "highlightFg": "#ffffff",
-    "scroll": "#4d4e5190"
+    "search": "#c8dcff",
+    "scroll": "#e1e1e190"
   },
-  "editorScheme": "/resources/gerryDark.theme.xml",
+  "editorScheme": "/resources/light/gerryLight.theme.xml",
   "ui": {
     "*": {
       "background": "bg",
@@ -838,10 +839,10 @@
       }
     },
     "SearchMatch": {
-      "endBackground": "accent",
-      "endColor": "accent",
-      "startBackground": "accent",
-      "startColor": "accent"
+      "endBackground": "search",
+      "endColor": "search",
+      "startBackground": "search",
+      "startColor": "search"
     },
     "SearchField.errorBackground": "bg",
     "SearchOption": {
