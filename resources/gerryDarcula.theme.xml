@@ -569,7 +569,7 @@
         <option name="FOLDED_TEXT_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="808080"/>
-                <option name="BACKGROUND" value="353535"/>
+                <option name="BACKGROUND" value="283246"/>
                 <option name="EFFECT_TYPE" value="2"/>
             </value>
         </option>
@@ -663,7 +663,7 @@
         </option>
         <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="373c41"/>
+                <option name="BACKGROUND" value="323c5a"/>
             </value>
         </option>
         <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
@@ -692,20 +692,20 @@
         </option>
         <option name="INLINE_PARAMETER_HINT">
             <value>
-                <option name="FOREGROUND" value="afb9c3"/>
-                <option name="BACKGROUND" value="3b3b3b"/>
+                <option name="FOREGROUND" value="96969d"/>
+                <option name="BACKGROUND" value="393b40"/>
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_CURRENT">
             <value>
-                <option name="FOREGROUND" value="afb9c3"/>
-                <option name="BACKGROUND" value="48668c"/>
+                <option name="FOREGROUND" value="96969d"/>
+                <option name="BACKGROUND" value="486691"/>
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
             <value>
-                <option name="FOREGROUND" value="afb9c3"/>
-                <option name="BACKGROUND" value="3b3b3b"/>
+                <option name="FOREGROUND" value="96969d"/>
+                <option name="BACKGROUND" value="393b40"/>
             </value>
         </option>
         <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD"/>
@@ -997,7 +997,7 @@
         </option>
         <option name="MATCHED_BRACE_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="50555f"/>
+                <option name="BACKGROUND" value="465078"/>
             </value>
         </option>
         <option name="MESSAGE_ARGUMENT">
@@ -1470,7 +1470,7 @@
         </option>
         <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="373c41"/>
+                <option name="BACKGROUND" value="323c5a"/>
             </value>
         </option>
         <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">

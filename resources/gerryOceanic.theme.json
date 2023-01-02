@@ -46,8 +46,8 @@
       "disabledForeground": "dis",
       "disabledText": "dis",
       "inactiveForeground": "dis",
-      "acceleratorForeground": "fg",
-      "acceleratorSelectionForeground": "fg",
+      "acceleratorForeground": "secondFg",
+      "acceleratorSelectionForeground": "secondFg",
       "errorForeground": "error",
       "borderColor": "border",
       "disabledBorderColor": "border",
@@ -888,11 +888,7 @@
       "foreground": "fg"
     },
     "Spinner": {
-      "background": "bg",
-      "border": "3,3,3,3",
-      "disabledBackground": "bg",
-      "foreground": "fg",
-      "selectionForeground": "selFg"
+      "background": "bg"
     },
     "SplitPane": {
       "background": "bg",

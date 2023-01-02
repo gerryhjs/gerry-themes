@@ -6,7 +6,7 @@
     "bg": "#ffffff",
     "second": "#f0f0f5",
     "fg": "#302a24",
-    "secondFg": "#443e42",
+    "secondFg": "#858585",
     "selBg": "#cfdefc",
     "selFg": "#000000",
     "border": "#dddddd",
@@ -47,8 +47,8 @@
       "disabledForeground": "dis",
       "disabledText": "dis",
       "inactiveForeground": "dis",
-      "acceleratorForeground": "fg",
-      "acceleratorSelectionForeground": "fg",
+      "acceleratorForeground": "secondFg",
+      "acceleratorSelectionForeground": "secondFg",
       "errorForeground": "error",
       "borderColor": "border",
       "disabledBorderColor": "border",
@@ -889,11 +889,7 @@
       "foreground": "fg"
     },
     "Spinner": {
-      "background": "bg",
-      "border": "3,3,3,3",
-      "disabledBackground": "bg",
-      "foreground": "fg",
-      "selectionForeground": "selFg"
+      "background": "bg"
     },
     "SplitPane": {
       "background": "bg",
